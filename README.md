@@ -1,5 +1,5 @@
 # Automatic and manual image registration workflows course
-Part of the [I2K 2020 conference](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends/virtual-workshop-program).
+Part of the [I2K 2020](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends) conference. [Apply here](https://www.janelia.org/you-janelia/conferences/from-images-to-knowledge-with-imagej-friends/virtual-workshop-program).
 
 ## Sessions: 	
 * `2020-11-30 21:00 – 2020-12-01 01:00 UTC`
