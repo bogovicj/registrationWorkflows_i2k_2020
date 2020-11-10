@@ -9,11 +9,7 @@ or use this [direct download link](https://github.com/SuperElastix/elastix/relea
 
 Unzip the zip file, we recommend `C:\Users\<USERNAME>\elastix-4.9.0`
 
-## 3. Set the path
-
-Add the folder to the `PATH`, see below. (you need administrator access for this)
-
-## 4. Test
+## 3. Test
 
 * Open a command prompt
 * Navigate to the folder where elastix is installed: (`cd C:\Users\<USERNAME>\elastix-4.9.0`)
@@ -23,14 +19,14 @@ If you see output that looks like the image below, congrats! You're done.
 
 <img src=https://raw.githubusercontent.com/bogovicj/registrationWorkflows_i2k_2020/main/installation/testElastixCmd.png width="500">
 
-If not, continue to step 5 and 6.
+If not, continue to step 4 and 5.
 
-## (optional) 5. Troubleshoot
+## (optional) 4. Troubleshoot
 
 * [Download the installers for Visual Studio 2015 runtime](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
 * Run the installers
 
-Try step 4 again.  If it still isn't working, continue to step 6 and get help from me.
+Try step 3 again.  If it still isn't working, continue to step 5 and get help from me.
 
-## (optional) 6. Get help
+## (optional) 5. Get help
 Contact me by [creating a new issue](https://github.com/bogovicj/registrationWorkflows_i2k_2020/issues) in this repo 
