@@ -8,14 +8,14 @@ Part of the [I2K 2020](https://www.janelia.org/you-janelia/conferences/from-imag
 # Summary
 
 Students will learn:
-* The principals of image transformation and registration.
+* The principals of image transformation and registration [(detailed outline)](https://github.com/bogovicj/registrationWorkflows_i2k_2020/blob/main/basicsFijiImglib2/Part1Outline.md)
     * Types of transformations (similarity, affine, non-linear)
     * Displacement fields for non-linear transformations
     * Basics of imglib2 spatial transformations
-* How to use [elastix](https://elastix.lumc.nl/) for automatic image registration
+* How to use [elastix](https://elastix.lumc.nl/) for automatic image registration [(detailed outline)](https://github.com/bogovicj/registrationWorkflows_i2k_2020/blob/main/elastix/Part2Outline.md)
     * Parameter choices
     * Jacobian of a transformation to measure deformation
-* How to use [BigWarp](https://imagej.net/BigWarp) to perform manual registration or to fine-tune an automatic registration.
+* How to use [BigWarp](https://imagej.net/BigWarp) to perform manual registration or to fine-tune an automatic registration [(detailed outline)](https://github.com/bogovicj/registrationWorkflows_i2k_2020/blob/main/bigwarp/Part3Outline.md).
     * concatenating transformations
     * converting transformations to convenient formats for use in different tools.
 
