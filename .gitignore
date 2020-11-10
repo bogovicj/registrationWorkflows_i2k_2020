@@ -1,0 +1,4 @@
+# Elastix outputs
+IterationInfo*txt
+elastix.log
+TransformParameters*txt
