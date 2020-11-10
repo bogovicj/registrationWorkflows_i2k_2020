@@ -20,6 +20,9 @@ Add the folder to the `PATH`, see below. (you need administrator access for this
 * type `elastix --help` and press enter
 
 If you see output that looks like the image below, congrats! You're done.
+
+<img src=https://raw.githubusercontent.com/bogovicj/registrationWorkflows_i2k_2020/main/installation/testElastixCmd.png width="500">
+
 If not, continue to step 5 and 6.
 
 ## (optional) 5. Troubleshoot
