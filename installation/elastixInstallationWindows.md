@@ -11,9 +11,13 @@ Unzip the zip file, we recommend `C:\Users\<USERNAME>\elastix-4.9.0`
 
 ## 3. Test
 
-* Open a command prompt
-* Navigate to the folder where elastix is installed: (`cd C:\Users\<USERNAME>\elastix-4.9.0`)
-* type `elastix --help` and press enter
+* Use the file explorer to navigate to the folder where elastix is installed (see image below)
+  * You should see 5 files, including `elastix.exe`, and `transformix.exe`
+* Type `cmd` into the address bar and press `<Enter>` to open the command prompt as shown here:
+
+<img src=https://raw.githubusercontent.com/bogovicj/registrationWorkflows_i2k_2020/main/installation/winOpenCmd.png width="500">
+
+* type `elastix --help` in the command prompt and press `<Enter>`.
 
 If you see output that looks like the image below, congrats! You're done.
 
