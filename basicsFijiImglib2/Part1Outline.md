@@ -17,13 +17,16 @@ to integrate that code into Fiji.
 
 We will not cover:
 * Piecewise linear
-* Advanced
-    * elastic vs fluid
+* Elastic
+* Fluid
+
+but be aware that these exist.
 
 ## Operations on transformations
 
 * Inverse transformations
 * Concatenating / composing transformations
+    * `interpolateOnceDemo.groovy`
 
 ## Transforming images and coordinates
 
