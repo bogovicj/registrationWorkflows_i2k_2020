@@ -3,7 +3,10 @@
 moving="../../sampleImages/ct_2d_moving.tif"
 fixed="../../sampleImages/mri_2d.tif"
 
-affine_params="AffineMI_2d.txt"
+#affine_params="AffineMSE_2d.txt"
+#affine_params="AffineMI_2d.txt"
+#affine_params="RigidMI_2d.txt"
+affine_params="RigidMI_2d_better.txt"
 
 nThreads="2"
 

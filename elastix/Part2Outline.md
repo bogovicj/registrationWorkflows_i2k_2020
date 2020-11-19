@@ -8,6 +8,12 @@ apply those transformations to images and points.
 * Running elastix
 * Customizing algorithm parameters
     * Loss functions
+        * `ct-mr/run_ct-mr.sh`
+    * Transform type
+        * `ct-mr/run_ct-mr.sh`
+    * Initialization
+        * `causeCtMrError.groovy`
+        * `ct-mr/run_ct-mr_translated.sh`
     * BSpline transformation parameters
 
 ## Applying transformations (transformix)
