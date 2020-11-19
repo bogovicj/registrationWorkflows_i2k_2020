@@ -1,9 +1,10 @@
 #!/bin/bash
 
-moving="../../sampleImages/ct_2d_moving.tif"
+moving="../../sampleImages/ct_translated.tif"
 fixed="../../sampleImages/mri_2d.tif"
 
 affine_params="AffineMI_2d.txt"
+#affine_params="AffineMI_2d_withInit.txt"
 
 nThreads="2"
 
