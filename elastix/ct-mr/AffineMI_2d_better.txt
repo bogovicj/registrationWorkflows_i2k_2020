@@ -44,7 +44,7 @@
 // quite ok in general. The Transform and Metric are important
 // and need to be chosen careful for each application. See manual.
 (Optimizer "AdaptiveStochasticGradientDescent")
-(Transform "EulerTransform")
+(Transform "AffineTransform")
 (Metric "AdvancedMattesMutualInformation")
 (NumberOfHistogramBins 16)
 
@@ -90,7 +90,7 @@
 // 200-2000 works usually fine for nonrigid registration.
 // The more, the better, but the longer computation time.
 // This is an important parameter!
-(MaximumNumberOfIterations 1000 1000)
+(MaximumNumberOfIterations 1000)
 
 // The step size of the optimizer, in mm. By default the voxel size is used.
 // which usually works well. In case of unusual high-resolution images

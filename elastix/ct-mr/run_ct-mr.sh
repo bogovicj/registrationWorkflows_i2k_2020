@@ -6,7 +6,8 @@ fixed="../../sampleImages/mri_2d.tif"
 #affine_params="AffineMSE_2d.txt"
 #affine_params="AffineMI_2d.txt"
 #affine_params="RigidMI_2d.txt"
-affine_params="RigidMI_2d_better.txt"
+#affine_params="RigidMI_2d_better.txt"
+affine_params="AffineMI_2d_better.txt"
 
 nThreads="2"
 

@@ -8,13 +8,21 @@ apply those transformations to images and points.
 * Running elastix
 * Customizing algorithm parameters
     * Loss functions
-        * `ct-mr/run_ct-mr.sh`
+        * Run `ct-mr/run_ct-mr.sh` with `AffineMSE_2d.txt` and observe results.
+        * Run `ct-mr/run_ct-mr.sh` with `AffineMI_2d.txt` and observe results.
     * Transform type
-        * `ct-mr/run_ct-mr.sh`
+        * Run `ct-mr/run_ct-mr.sh` with `RigidMI_2d.txt` and observe results.
+        * Run `ct-mr/run_ct-mr.sh` with `RigidMI_2d_better.txt` and observe results.
+        * Run `ct-mr/run_ct-mr.sh` with `AffineMI_2d_better.txt` and observe results.
+        * Draw conclusions
     * Initialization
-        * `causeCtMrError.groovy`
-        * `ct-mr/run_ct-mr_translated.sh`
-    * BSpline transformation parameters
+        * Run `causeCtMrError.groovy` with `ct_2d_moving.tif` and save the image.
+        * Run `ct-mr/run_ct-mr_translated.sh` with `AffineMI_2d_better.txt` and observe results.
+        * Run `ct-mr/run_ct-mr_translated.sh` with `AffineMI_2d_withInit.txt` and observe results.
+    * Multi-step registration
+        * Run `flyTemplate/run_fcwb-jrc2018_first.sh` and observe the results.
+        * Run `flyTemplate/run_fcwb-jrc2018.sh` and observe the results.
+    * Bspline parameters
 
 ## Applying transformations (transformix)
 
@@ -34,3 +42,16 @@ apply those transformations to images and points.
 * Measure deformation
     * Jacobian determinants 
 
+## "Homework"
+
+* Set up a two-step (rigid+bspline) registration for the `ct-mr` example.
+    * and find a set of bspline parameters that look good.
+* Find two ways to change `flyTemplate/Affine.txt` so that it fails.
+
+
+## For plotting 
+Install [Rstudio](https://rstudio.com/) or [R](https://www.r-project.org/)
+and the [tidyverse](https://www.tidyverse.org/) with
+```
+install.packages("tidyverse")
+```
