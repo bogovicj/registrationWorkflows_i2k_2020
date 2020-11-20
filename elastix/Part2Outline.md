@@ -23,6 +23,13 @@ apply those transformations to images and points.
         * Run `flyTemplate/run_fcwb-jrc2018_first.sh` and observe the results.
         * Run `flyTemplate/run_fcwb-jrc2018.sh` and observe the results.
     * Bspline parameters
+* Use your image metadata (and speeding up registration)
+    * Run `downsampleSimple.groovy` to downsample `JRC2018_FEMALE_small.nrrd` and `FCWB_small.nrrd` by 4.
+    * Run `run_fcwb-jrc2018_downsampled.sh` and observe results.
+    * Run `run_transform-different-resolution.sh` "Part 1" and observe results.
+    * Run `run_transform-different-resolution.sh` "Part 2" and observe results.
+    * Run `run_transform-different-resolution.sh` "Part 3" and observe results.
+    * Predict what `run_transform-different-resolution.sh` "Part 4" will do, then run it, and observe results.
 
 ## Applying transformations (transformix)
 
