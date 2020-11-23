@@ -26,8 +26,6 @@ if( image.numDimensions() == 2 )
 bdv = BdvFunctions.show( image, "original", opts );
 BdvFunctions.show( transformedImage, image, "transformed", opts.addTo( bdv ) );
 
-bdv.getBdvHandle().getSetupAssignments().getConverterSetups().get( 1 ).setColor( red );
-
 
 
 /******************************

@@ -46,3 +46,6 @@ but be aware that these exist.
 * Look at the functions in `sampleDeformationFields.groovy`
     * Create a function that makes a deformation field that translate an image 5.5 pixels to the left.
     * Create a fun deformation field.
+* Our deformation scripts will not work for the `flyTemplate` elastix example.  Make them work by:
+    * extending to 3D
+    * make the deformations fields work in physical, not pixel coordinates.
