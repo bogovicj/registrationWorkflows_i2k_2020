@@ -179,6 +179,37 @@ println( 'inputAAinv : ' + inputAAinv );
 //notInvertible.set( 1, 1, 0, 2, 2, 0 );
 
 
+/*
+ * If you have multiple transforms, inverses are applied in reverse order:
+ * (AB)^-1 = (B^-1)(A^-1)
+ */
+tmp = new RealPoint( 2 ); // a 2d point
+
+A = scaleXandY;
+B = rot;
+
+BthenA = B.copy();
+BthenA.preConcatenate( A );
+BthenA.applyInverse( output, input );
+println( "(AB)^-1 ": output );
+
+/*
+ * WARNING DON'T DO THE BELOW WITH AFFINES
+ * INSTEAD DO THE ABOVE:
+ * BthenA.applyInverse( output, input );
+ */
+Ainv = A.inverse();
+Binv = B.inverse();
+
+Binv.apply( input, tmp );
+Ainv.apply( tmp, output );
+// not the same as (AB)^1
+println( "(B^-1)(A^-1)": output );
+
+Ainv.apply( input, tmp );
+Binv.apply( tmp, output  );
+println( "(A^-1)(B^-1)": output );
+
 
 /******************************
  *	ONLY FUNCTIONS BELOW HERE *
