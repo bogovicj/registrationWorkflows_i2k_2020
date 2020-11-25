@@ -1,4 +1,4 @@
-# elastix installation (Windows)
+# elastix installation (Mac/Linux)
 
 ## 1. Download
 
@@ -20,6 +20,13 @@ First, make sure you've downloaded the source code for this repository already (
 * linux 
     * rename `setVariablesLinux.sh` to `setVariables.sh`
 
+Open a terminal in the folder `registrationWorkflows_i2k_2020/elastix`.
+
+On a Mac, you can open a terminal from Finder by right-clicking on the folder then choosing `Services > New Terminal at Folder` as shown here:
+
+<img src=https://raw.githubusercontent.com/bogovicj/registrationWorkflows_i2k_2020/main/installation/macStartTerminal.png width="500">
+
+Type `./test.sh` in the terminal and press `<Enter>`.  You should see some output in the terminal, and a new file (`TransformParameters.0.txt`) should appear in the folder.
 
 ## (optional) 4. Get help
 Contact me by [creating a new issue](https://github.com/bogovicj/registrationWorkflows_i2k_2020/issues) in this repo.
