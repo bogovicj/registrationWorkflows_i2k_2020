@@ -28,6 +28,18 @@ On a Mac, you can open a terminal from Finder by right-clicking on the folder th
 
 Type `./test.sh` in the terminal and press `<Enter>`.  You should see some output in the terminal, and a new file (`TransformParameters.0.txt`) should appear in the folder.
 
+## 3a. If you see a security warning on Mac osx
+
+Give elastix a security exception as described [here](https://support.apple.com/guide/mac-help/open-a-mac-app-from-an-unidentified-developer-mh40616/mac) by:
+1. Go to System preferences with `Apple icon > System Preferences`
+2. Go to Security and Privacy
+3. Open the General Tab
+4. Click the lock to make changes
+5. Click the "Open Anyway" button
+
+Try again to type `./test.sh` in the terminal and press `<Enter>`.  You may get another security exception.  If
+so, repeat the steps above to grant another exception.
+
 ## (optional) 4. Get help
 Contact me by [creating a new issue](https://github.com/bogovicj/registrationWorkflows_i2k_2020/issues) in this repo.
 There will also be troubleshooting time during the tutorial.
