@@ -13,7 +13,7 @@ Unzip the zip file to `/Users/<USERNAME>/elastix-5.0.1-mac` and `/home/<USERNAME
 
 ## 3. Test
 
-First, make sure you've downloaded the source code for this repository already (see the [README](https://github.com/bogovicj/registrationWorkflows_i2k_2020/blob/main/README.md)).
+If you haven't yet, download the code in this repository with [this link](https://github.com/bogovicj/registrationWorkflows_i2k_2020/archive/main.zip) and unzip the file (or use `git clone` if you're familiar with git).
 
 * mac 
     * rename `setVariablesMac.sh` to `setVariables.sh`
