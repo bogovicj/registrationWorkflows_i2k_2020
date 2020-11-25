@@ -1,4 +1,5 @@
 #!/bin/bash
+source setVariables.sh
 
 moving="../../sampleImages/jrc18_demo_sample_data/FCWB_small_downsampled.nrrd"
 fixed="../../sampleImages/jrc18_demo_sample_data/JRC2018_FEMALE_small_downsampled.nrrd"

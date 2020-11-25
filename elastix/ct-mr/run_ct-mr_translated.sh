@@ -1,4 +1,5 @@
 #!/bin/bash
+source setVariables.sh
 
 moving="../../sampleImages/ct_translated.tif"
 fixed="../../sampleImages/mri_2d.tif"
