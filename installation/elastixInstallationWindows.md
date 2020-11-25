@@ -2,12 +2,12 @@
 
 ## 1. Download
 
-Download the windows binaries for elastix 4.9.0 from [this page](https://github.com/SuperElastix/elastix/releases/tag/4.9.0),
-or use this [direct download link](https://github.com/SuperElastix/elastix/releases/download/4.9.0/elastix-4.9.0-win64.zip).
+Download the windows binaries for elastix 5.0.1 from [this page](https://github.com/SuperElastix/elastix/releases/tag/5.0.1),
+or use this [direct download link](https://github.com/SuperElastix/elastix/releases/download/5.0.1/elastix-5.0.1-win64.zip).
 
 ## 2. Extract
 
-Unzip the zip file, we recommend `C:\Users\<USERNAME>\elastix-4.9.0`
+Unzip the zip file to `C:\Users\<USERNAME>\elastix-5.0.1-win64`
 
 ## 3. Test
 
@@ -34,3 +34,4 @@ Try step 3 again.  If it still isn't working, continue to step 5 and get help fr
 
 ## (optional) 5. Get help
 Contact me by [creating a new issue](https://github.com/bogovicj/registrationWorkflows_i2k_2020/issues) in this repo 
+There will also be troubleshooting time during the tutorial.
