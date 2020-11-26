@@ -26,6 +26,7 @@ Students should be familiar with ImageJ/Fiji, and understand basic image analysi
 1. Download and install Fiji
 2. Download and install elastix
    1. [Windows instructions](https://github.com/bogovicj/registrationWorkflows_i2k_2020/blob/main/installation/elastixInstallationWindows.md)
+   2. [Mac/Linux instructions](https://github.com/bogovicj/registrationWorkflows_i2k_2020/blob/main/installation/elastixInstallationMacLinux.md)
 3. Download the code in this repository with [this link](https://github.com/bogovicj/registrationWorkflows_i2k_2020/archive/main.zip) (or `git clone`).
 
 #### Download sample data
