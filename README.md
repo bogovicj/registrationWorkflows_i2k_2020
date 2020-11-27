@@ -33,4 +33,4 @@ Students should be familiar with ImageJ/Fiji, and understand basic image analysi
 
 * [Drosophila template samples](https://figshare.com/s/bb156ad5a4288cdc65a2)
 * [CT-MR registration samples](https://figshare.com/articles/dataset/CT-MR_Registration_sample_images/13218026)
-
+* [CLEM samples](https://figshare.com/s/442b7686fe02a0839ef7)
