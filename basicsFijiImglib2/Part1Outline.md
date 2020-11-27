@@ -5,15 +5,27 @@ to integrate that code into Fiji.
 
 ## Types of transformations
 
-* Linear
-    * Translation
-    * Rigid
-    * Similarity
-    * Affine
-* Non-linear
-    * Displacement field
-    * B-spline
-    * Thin plate spline
+* Open and run `simpleImglib2Transforms.groovy`
+* Define different types of transformations
+    * Translation, Rigid, Similarity, Affine
+* Properties of linear transformations `linearTransformBasics.groovy`
+    * linear transforms can be written as matrices
+    * in this class, they will always be invertible
+    * inverses are "applied in reverse order"
+        * Inverses in reverse order is true also for invertible, non-linear transformations
+
+* Displacement field
+    * Open `mysteryDeformation.nrrd` and `grid2d.tif` from `sampleImages` folder
+    * What is a displacement field?
+    * Predict what will happen when we transform the grid with the deformation `deformationFields.groovy`
+        * were you right?
+    * [Transforms on points vs images](https://github.com/bogovicj/transforms_tutorial/blob/master/resources/2019_DAIS.pdf)
+        * **To transform an image, you need to transform points from target to moving image space**
+    
+    
+* B-spline (elastix, pt2)
+* Thin plate spline (Bigwarp, pt3)
+
 
 We will not cover:
 * Piecewise linear
@@ -27,11 +39,11 @@ but be aware that these exist.
 * Inverse transformations
 * Concatenating / composing transformations
     * `interpolateOnceDemo.groovy`
+    * See this [famous tweet](https://twitter.com/haesleinhuepf/status/1088546103866388481?s=20)
 
 ## Transforming images and coordinates
 
-* Transforming points 
-* Transforming images
+* Transforming points and images `transformPointsAndImages.groovy`, `transformPointsAndImagesDfield.groovy`.
 * Image metadata and working in physical coordinates
 
 ## Homework

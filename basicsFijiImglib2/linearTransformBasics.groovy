@@ -12,6 +12,17 @@ import net.imglib2.realtransform.*;
 import net.imglib2.loops.*;
 import net.imglib2.util.*;
 
+/**
+ * CONCLUSIONS:
+ * 
+ * linear transforms can be written as matrices
+ * in this class, they will always be invertible
+ * inverses are "applied in reverse order"
+ *    Inverses in reverse order is true also for invertible, 
+ *    non-linear transformations
+ */
+ 
+ 
 /*
  * Some transformations
  */

@@ -97,5 +97,3 @@ resultImage = new ImagePlus( name, imageStack );
 resultImage.show();
 
 
-
-
