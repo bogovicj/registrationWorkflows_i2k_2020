@@ -44,7 +44,7 @@ but be aware that these exist.
 ## Transforming images and coordinates
 
 * Transforming points and images `transformPointsAndImages.groovy`, `transformPointsAndImagesDfield.groovy`.
-* Image metadata and working in physical coordinates
+* Image metadata and working in physical coordinates (We'll see this in part 2).
 
 ## Homework
 
