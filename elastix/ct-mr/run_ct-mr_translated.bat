@@ -8,5 +8,5 @@ set nThreads="2"
 
 echo %nThreads%
 
-elastix -f %fixed% -m %moving% -out . -threads %nThreads% -p %affine_params%
+%HOMEDRIVE%%HOMEPATH%/elastix-4.9.0-win64/elastix -f %fixed% -m %moving% -out . -threads %nThreads% -p %affine_params%
 move result.0.nrrd ct_to_mr.nrrd
