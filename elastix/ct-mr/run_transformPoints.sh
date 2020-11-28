@@ -1,5 +1,5 @@
 #!/bin/bash
-source setVariables.sh
+source ../setVariables.sh
 
 transformix -def point.txt \
     -out . \
