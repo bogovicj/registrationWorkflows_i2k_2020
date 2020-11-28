@@ -2,12 +2,12 @@
 
 ## 1. Download
 
-Download the windows binaries for elastix 5.0.1 from [this page](https://github.com/SuperElastix/elastix/releases/tag/5.0.1),
-or use this [direct download link](https://github.com/SuperElastix/elastix/releases/download/5.0.1/elastix-5.0.1-win64.zip).
+Download the windows binaries for elastix 4.9.0 from [this page](https://github.com/SuperElastix/elastix/releases/tag/4.9.0),
+or use this [direct download link](https://github.com/SuperElastix/elastix/releases/download/4.9.0/elastix-4.9.0-win64.zip).
 
 ## 2. Extract
 
-Unzip the zip file to `C:\Users\<USERNAME>\elastix-5.0.1-win64`
+Unzip the zip file to `C:\Users\<USERNAME>\elastix-4.9.0-win64`
 
 ## 3. Test
 
