@@ -22,7 +22,6 @@ to integrate that code into Fiji.
     * [Transforms on points vs images](https://github.com/bogovicj/transforms_tutorial/blob/master/resources/2019_DAIS.pdf)
         * **To transform an image, you need to transform points from target to moving image space**
     
-    
 * B-spline (elastix, pt2)
 * Thin plate spline (Bigwarp, pt3)
 
@@ -61,3 +60,7 @@ but be aware that these exist.
 * Our deformation scripts will not work for the `flyTemplate` elastix example.  Make them work by:
     * extending to 3D
     * make the deformations fields work in physical, not pixel coordinates.
+
+## Resources
+* [some command line and fiji tools for transformations](https://github.com/saalfeldlab/template-building/wiki/Usage-examples)
+* [hdf5/n5 displacement fields](https://github.com/saalfeldlab/template-building/wiki/Hdf5-Deformation-fields)
