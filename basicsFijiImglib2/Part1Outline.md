@@ -64,3 +64,5 @@ but be aware that these exist.
 ## Resources
 * [some command line and fiji tools for transformations](https://github.com/saalfeldlab/template-building/wiki/Usage-examples)
 * [hdf5/n5 displacement fields](https://github.com/saalfeldlab/template-building/wiki/Hdf5-Deformation-fields)
+* [My DAIS 2019 tutorial](https://github.com/bogovicj/transforms_tutorial)
+    * [slides explaining why the inverse transform is needed for images](https://github.com/bogovicj/transforms_tutorial/blob/master/resources/2019_DAIS.pdf)
