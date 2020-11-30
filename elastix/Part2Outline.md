@@ -71,6 +71,11 @@ apply those transformations to images and points.
 * Transform 3d points
     * use `transformix` to transform the points in `GadMARCM-F000122_seg001_03_swc_forTransformix.txt`
 
+## Resources
+
+* [elastix wrapper for Fiji](https://github.com/embl-cba/elastixWrapper) from Christian Tischer.
+* [elastix manual](https://elastix.lumc.nl/download/elastix-5.0.1-manual.pdf)
+
 ## For plotting 
 Install [Rstudio](https://rstudio.com/) or [R](https://www.r-project.org/)
 and the [tidyverse](https://www.tidyverse.org/) with
